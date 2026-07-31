@@ -68,7 +68,7 @@ const Hero = () => {
                  L-300 1300
                  L-300 
                  Z" 
-              fill="#8E9969"
+              fill="#A9805B"
             />
           </g>
           {/* Layer 2: Dark green main curve (front) */}
@@ -79,7 +79,7 @@ const Hero = () => {
                  L-300 1400
                  L-300 1500
                  Z" 
-              fill="#48501e"
+              fill="#5C4033"
             />
           </g>
         </svg>

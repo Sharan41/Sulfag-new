@@ -5,18 +5,18 @@
 }
 
 :root {
-  /* Sulfag Brand Colors - Official from Brand Kit */
-  --sulfag-primary: #48501e;        /* Dark Olive Green - Primary brand color */
-  --sulfag-secondary: #8E9969;       /* Sage Green - Secondary elements */
-  --sulfag-bg-light: #e7e5d7;       /* Light Cream - Page backgrounds */
-  --sulfag-accent: #846639;         /* Earth Brown - CTAs, buttons */
-  --sulfag-neutral: #c2b19c;        /* Warm Beige - Borders, dividers */
-  
+  /* Sulfag Brand Colors - Brown Theme */
+  --sulfag-primary: #5C4033;        /* Deep Coffee Brown - Primary brand color */
+  --sulfag-secondary: #A9805B;       /* Warm Caramel - Secondary elements */
+  --sulfag-bg-light: #F3E9DC;       /* Warm Ivory - Page backgrounds */
+  --sulfag-accent: #8B5E3C;         /* Chestnut Brown - CTAs, buttons */
+  --sulfag-neutral: #CBAE8B;        /* Warm Tan - Borders, dividers */
+
   /* Legacy support (mapped to correct colors) */
-  --sulfag-green: #48501e;          /* Mapped to primary */
-  --sulfag-light-green: #8E9969;    /* Mapped to secondary */
-  --sulfag-dark: #1A1A1A;
-  --sulfag-cream: #e7e5d7;          /* Mapped to bg-light */
+  --sulfag-green: #5C4033;          /* Mapped to primary */
+  --sulfag-light-green: #A9805B;    /* Mapped to secondary */
+  --sulfag-dark: #2A211C;
+  --sulfag-cream: #F3E9DC;          /* Mapped to bg-light */
   
   /* Typography - Official Brand Fonts */
   --font-heading: 'TT Chocolates', 'Playfair Display', Georgia, serif;

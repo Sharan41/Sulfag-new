@@ -1,9 +1,9 @@
 .products-stats {
-  background: rgba(72, 80, 30, 0.08);
+  background: rgba(92, 64, 51, 0.08);
   border-radius: 16px;
   padding: 24px 32px;
   margin-bottom: 32px;
-  border: 1px solid rgba(72, 80, 30, 0.15);
+  border: 1px solid rgba(92, 64, 51, 0.15);
 }
 
 .stats-content {
@@ -42,7 +42,7 @@
 .stat-divider {
   width: 1px;
   height: 40px;
-  background: rgba(72, 80, 30, 0.2);
+  background: rgba(92, 64, 51, 0.2);
   margin: 0 8px;
 }
 

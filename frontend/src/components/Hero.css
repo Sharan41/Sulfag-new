@@ -7,7 +7,7 @@
   height: 100vh;
   min-height: 700px;
   overflow: hidden;
-  background-color: #e7e5d7;
+  background-color: #F3E9DC;
 }
 
 /* Background Image with Subtle Parallax (per research: not excessive) */
@@ -85,14 +85,16 @@
 /* ====================== */
 .hero-content {
   position: absolute;
-  bottom: 25%;
-  left: 11%;
-  max-width: 550px;
+  bottom: 20%;
+  left: 8%;
+  max-width: 600px;
   z-index: 3;
-  color: #e7e5d7;
+  color: #F3E9DC;
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  border-left: 3px solid rgba(255, 255, 255, 0.6);
+  padding-left: 28px;
 }
 
 .hero-content.animate-in {
@@ -225,7 +227,7 @@
 .hero-btn:focus {
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(72, 80, 30, 0.2);
+  box-shadow: 0 8px 20px rgba(92, 64, 51, 0.2);
 }
 
 .hero-btn:active {
@@ -248,12 +250,13 @@
 /* ====================== */
 @media (max-width: 1024px) {
   .hero-content {
-    bottom: 22%;
+    bottom: 20%;
     left: 5%;
     right: 10%;
     max-width: 450px;
+    padding-left: 20px;
   }
-  
+
   .hero-shape {
     height: 80%;
   }
@@ -263,13 +266,15 @@
   .hero {
     min-height: 600px;
   }
-  
+
   .hero-content {
-    bottom: 28%;
+    bottom: 26%;
     left: 5%;
     right: 5%;
     max-width: none;
     padding-right: 10px;
+    padding-left: 16px;
+    border-left-width: 2px;
   }
   
   .hero-company-name {
