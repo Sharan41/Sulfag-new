@@ -1,6 +1,7 @@
 .heritage-stats {
-  background-color: white;
-  padding: 60px 0;
+  background-color: var(--sulfag-bg-light);
+  padding: 72px 0;
+  border-top: 1px solid var(--sulfag-neutral);
 }
 
 .stats-container {
@@ -12,17 +13,15 @@
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0;
+  gap: 28px;
 }
 
 .stat-item {
   text-align: center;
-  padding: 24px 40px;
-  border-right: 1px solid var(--sulfag-neutral);
-}
-
-.stat-item:last-child {
-  border-right: none;
+  padding: 32px 28px;
+  background: white;
+  border: 1px solid var(--sulfag-neutral);
+  border-radius: 16px;
 }
 
 .stat-number {
@@ -55,25 +54,27 @@
 
 @media (max-width: 768px) {
   .heritage-stats {
-    padding: 48px 0;
+    padding: 56px 0;
   }
-  
+
   .stats-grid {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
-  
+
   .stat-item {
-    border-right: none;
-    border-bottom: 1px solid var(--sulfag-neutral);
     padding: 32px 24px;
   }
-  
-  .stat-item:last-child {
-    border-bottom: none;
-  }
-  
+
   .stat-number {
     font-size: 48px;
   }
 }
+
+
+
+
+
+
+
 

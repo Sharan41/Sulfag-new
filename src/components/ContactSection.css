@@ -1,7 +1,8 @@
 .contact-section {
   background-color: var(--sulfag-bg-light);
-  padding: 80px 24px;
+  padding: 96px 24px;
   position: relative;
+  border-top: 1px solid var(--sulfag-neutral);
 }
 
 .contact-section-container {
@@ -29,7 +30,7 @@
 .contact-info-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 32px;
+  gap: 28px;
   margin-bottom: 48px;
 }
 
@@ -40,7 +41,7 @@
 .contact-card {
   background: white;
   padding: 40px 32px;
-  border-radius: 12px;
+  border-radius: 16px;
   text-align: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -66,7 +67,7 @@
   justify-content: center;
   width: 64px;
   height: 64px;
-  background-color: rgba(132, 102, 57, 0.1);
+  background-color: rgba(139, 94, 60, 0.1);
   border-radius: 50%;
   margin-bottom: 24px;
 }
@@ -128,18 +129,18 @@
   border-radius: 8px;
   text-decoration: none;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(132, 102, 57, 0.3);
+  box-shadow: 0 4px 12px rgba(139, 94, 60, 0.3);
 }
 
 .contact-primary-button:hover {
   background-color: var(--sulfag-primary);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(72, 80, 30, 0.4);
+  box-shadow: 0 6px 20px rgba(92, 64, 51, 0.4);
 }
 
 @media (max-width: 768px) {
   .contact-section {
-    padding: 60px 20px;
+    padding: 64px 20px;
   }
   
   .contact-section-title {

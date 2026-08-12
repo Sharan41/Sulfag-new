@@ -1,10 +1,10 @@
 .contact-cta {
-  min-height: 450px;
+  min-height: 480px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  background-image: url('https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1920&q=80');
+  background-image: var(--sulfag-bg-hero);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -17,7 +17,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(72, 80, 30, 0.65);
+  background-color: rgba(92, 64, 51, 0.65);
   z-index: 1;
 }
 
@@ -115,7 +115,7 @@
 @media (max-width: 768px) {
   .contact-cta {
     background-attachment: scroll;
-    min-height: 350px;
+    min-height: 380px;
   }
   
   .cta-title {
@@ -136,4 +136,11 @@
     text-align: center;
   }
 }
+
+
+
+
+
+
+
 

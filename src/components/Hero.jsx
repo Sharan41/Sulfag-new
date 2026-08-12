@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { HERO_BACKGROUND } from '../constants/images'
 import './Hero.css'
 
 const Hero = () => {
@@ -50,8 +51,8 @@ const Hero = () => {
         }}
       >
         <img 
-          src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1920&q=80" 
-          alt="Agricultural field" 
+          src={HERO_BACKGROUND}
+          alt="Young seedlings growing in fertile soil" 
         />
       </div>
 
@@ -68,7 +69,7 @@ const Hero = () => {
                  L-300 1300
                  L-300 
                  Z" 
-              fill="#8E9969"
+              fill="#A9805B"
             />
           </g>
           {/* Layer 2: Dark green main curve (front) */}
@@ -79,7 +80,7 @@ const Hero = () => {
                  L-300 1400
                  L-300 1500
                  Z" 
-              fill="#48501e"
+              fill="#5C4033"
             />
           </g>
         </svg>

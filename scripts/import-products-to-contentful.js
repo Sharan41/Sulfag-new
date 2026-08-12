@@ -235,6 +235,22 @@ const importData = {
           "type": "Integer",
           "required": true,
           "localized": false
+        },
+        {
+          "id": "images",
+          "name": "Images",
+          "type": "Array",
+          "required": false,
+          "localized": false,
+          "items": {
+            "type": "Link",
+            "linkType": "Asset",
+            "validations": [
+              {
+                "linkMimetypeGroup": ["image"]
+              }
+            ]
+          }
         }
       ]
     }

@@ -1,6 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react'
 import ContactCTA from '../components/ContactCTA'
 import { ShieldCheckIcon } from '../components/Icons'
+import {
+  ABOUT_HERO_IMAGE,
+  ABOUT_LIQUID_IMAGE,
+  ABOUT_POWDER_IMAGE,
+} from '../constants/images'
 import './AboutUs.css'
 
 const AboutUs = () => {
@@ -75,8 +80,8 @@ const AboutUs = () => {
             <div className="intro-image">
               <div className="image-overlay"></div>
               <img 
-                src="https://plus.unsplash.com/premium_photo-1661825521051-94a8ad2ad079?fm=jpg&q=80&w=1200&fit=crop&ixlib=rb-4.1.0" 
-                alt="A person spraying pesticide on a field" 
+                src={ABOUT_HERO_IMAGE}
+                alt="Golden farmland at sunrise" 
               />
             </div>
             <div className="intro-text">
@@ -195,8 +200,8 @@ const AboutUs = () => {
             <div className="infrastructure-card">
               <div className="infrastructure-image-wrapper">
                 <img 
-                  src="https://plus.unsplash.com/premium_photo-1661962514374-442d58a10c91?fm=jpg&q=80&w=1200&fit=crop&ixlib=rb-4.1.0" 
-                  alt="Liquid pesticide formulation"
+                  src={ABOUT_LIQUID_IMAGE}
+                  alt="Golden grain harvest"
                   className="infrastructure-image"
                 />
               </div>
@@ -206,8 +211,8 @@ const AboutUs = () => {
             <div className="infrastructure-card">
               <div className="infrastructure-image-wrapper">
                 <img 
-                  src="https://images.unsplash.com/photo-1593095948071-474c5cc2989d?fm=jpg&q=80&w=1200&fit=crop&ixlib=rb-4.1.0" 
-                  alt="Powder pesticide formulation"
+                  src={ABOUT_POWDER_IMAGE}
+                  alt="Warm harvest field"
                   className="infrastructure-image"
                 />
               </div>

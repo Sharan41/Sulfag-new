@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ShieldIcon, MushroomIcon, LeafIcon, BoxIcon } from './Icons'
+import { CATEGORY_IMAGES } from '../constants/images'
 import './ProductCategories.css'
 
 const ProductCategories = () => {
@@ -14,7 +15,7 @@ const ProductCategories = () => {
       title: 'INSECTICIDES',
       link: '/products?category=insecticides',
       description: 'Protect crops from harmful insects',
-      image: 'https://plus.unsplash.com/premium_photo-1661942064041-a15c0c93d2a5?fm=jpg&q=80&w=1200&fit=crop&ixlib=rb-4.1.0'
+      image: CATEGORY_IMAGES.insecticides
     },
     {
       id: 'fungicides',
@@ -22,7 +23,7 @@ const ProductCategories = () => {
       title: 'FUNGICIDES',
       link: '/products?category=fungicides',
       description: 'Control fungal diseases effectively',
-      image: 'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1200&h=800&fit=crop&q=90&auto=format'
+      image: CATEGORY_IMAGES.fungicides
     },
     {
       id: 'herbicides',
@@ -30,7 +31,7 @@ const ProductCategories = () => {
       title: 'HERBICIDES',
       link: '/products?category=herbicides',
       description: 'Manage weeds and unwanted plants',
-      image: 'https://tse1.mm.bing.net/th/id/OIP.UHaGoa9dW6pXDCap41rHyAHaE8?pid=Api&rs=1'
+      image: CATEGORY_IMAGES.herbicides
     },
     {
       id: 'specialty',
@@ -38,7 +39,7 @@ const ProductCategories = () => {
       title: 'SPECIALTY',
       link: '/products?category=specialty',
       description: 'Specialized solutions for unique needs',
-      image: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=1200&h=800&fit=crop&q=90&auto=format'
+      image: CATEGORY_IMAGES.specialty
     }
   ]
 

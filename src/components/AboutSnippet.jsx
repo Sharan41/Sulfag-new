@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { ABOUT_SNIPPET_IMAGE } from '../constants/images'
 import './AboutSnippet.css'
 
 const AboutSnippet = () => {
@@ -35,8 +36,8 @@ const AboutSnippet = () => {
           <div className="about-image">
             <div className="image-overlay"></div>
             <img 
-              src="https://plus.unsplash.com/premium_photo-1661825521051-94a8ad2ad079?fm=jpg&q=80&w=1200&fit=crop&ixlib=rb-4.1.0" 
-              alt="A person spraying pesticide on a field" 
+              src={ABOUT_SNIPPET_IMAGE}
+              alt="Hands planting in rich brown soil" 
             />
           </div>
           <div className="about-text">
